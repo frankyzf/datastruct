@@ -30,7 +30,7 @@ bool merge(int* data, int left_start, int step, int right_end)
 {
 	int left_end = left_start + step -1;
 	int right_start = left_start + step; 
-	if(left_end > right_end)
+	if(left_end >= right_end)
 		return true; // only 1 pair and return directly
 	
 	int tmp[MAXBUF];
