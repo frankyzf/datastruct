@@ -4,6 +4,10 @@
 using namespace std;
 bool QuickSorting(int* data, const int start, const int end)
 {
+/*
+	QuickSorting use a pivot value to split whole data into 2 parts
+	Time Complexity = O(n*log(n))
+*/
 	if(start < end)
 	{
 		int pivotindex = start;
